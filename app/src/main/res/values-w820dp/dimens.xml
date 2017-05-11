@@ -1,0 +1,21 @@
+<!--
+  ~ ***********************************************************************************************************************
+  ~ Copyright (c) 2016 Furkan Tazegüllü - All Right Reserved.
+  ~
+  ~ Project             : Weather
+  ~ Created on          : 21.07.2016 11:11
+  ~ Author              : Furkan Tazegüllü
+  ~ Author E-Mail       : furkan.tazegll@gmail.com
+  ~ Module              : C:/Project/Mobile/Weather/app/src/main/res/values-w820dp/dimens.xml
+  ~ File Name           : dimens.xml
+  ~ Last Modified User  : Furkan
+  ~ Last Modified Date  : 21.07.2016 11:07
+  ~ ***********************************************************************************************************************
+  -->
+
+<resources>
+    <!-- Example customization of dimensions originally defined in res/values/dimens.xml
+         (such as screen margins) for screens with more than 820dp of available width. This
+         would include 7" and 10" devices in landscape (~960dp and ~1280dp respectively). -->
+    <dimen name="activity_horizontal_margin">64dp</dimen>
+</resources>

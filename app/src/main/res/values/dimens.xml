@@ -1,0 +1,20 @@
+<!--
+  ~ ***********************************************************************************************************************
+  ~ Copyright (c) 2016 Furkan Tazegüllü - All Right Reserved.
+  ~
+  ~ Project             : Weather
+  ~ Created on          : 21.07.2016 11:11
+  ~ Author              : Furkan Tazegüllü
+  ~ Author E-Mail       : furkan.tazegll@gmail.com
+  ~ Module              : C:/Project/Mobile/Weather/app/src/main/res/values/dimens.xml
+  ~ File Name           : dimens.xml
+  ~ Last Modified User  : Furkan
+  ~ Last Modified Date  : 21.07.2016 11:07
+  ~ ***********************************************************************************************************************
+  -->
+
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ * **********************************************************************************************************************
+  ~  * Copyright (c) 2016 Furkan Tazegüllü - All Right Reserved.
+  ~  *
+  ~  * Project             : Weather
+  ~  * Created on          : 28.07.2016 13:00
+  ~  * Author              : Furkan Tazegüllü
+  ~  * Author E-Mail       : furkan.tazegll@gmail.com
+  ~  * Module              : C:/Project/Mobile/Weather/app/src/main/res/layout/toolbar_layout.xml
+  ~  * File Name           : toolbar_layout.xml
+  ~  * Last Modified User  : Furkan
+  ~  * Last Modified Date  : 28.07.2016 13:00
+  ~  * **********************************************************************************************************************
+  -->
+
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#119cc6"
+    android:fitsSystemWindows="true"
+    android:minHeight="?attr/actionBarSize"
+    app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+</android.support.v7.widget.Toolbar>

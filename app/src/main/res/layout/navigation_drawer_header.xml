@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ * **********************************************************************************************************************
+  ~  * Copyright (c) 2016 Furkan Tazegüllü - All Right Reserved.
+  ~  *
+  ~  * Project             : Weather
+  ~  * Created on          : 28.07.2016 16:54
+  ~  * Author              : Furkan Tazegüllü
+  ~  * Author E-Mail       : furkan.tazegll@gmail.com
+  ~  * Module              : C:/Project/Mobile/Weather/app/src/main/res/layout/navigation_drawer_header.xml
+  ~  * File Name           : navigation_drawer_header.xml
+  ~  * Last Modified User  : Furkan
+  ~  * Last Modified Date  : 28.07.2016 16:54
+  ~  * **********************************************************************************************************************
+  -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:background="#031927"
+    android:layout_width="match_parent"
+    android:layout_height="150dp">
+
+    <ImageView
+        android:layout_centerVertical="true"
+        android:layout_width="80dp"
+        android:id="@+id/navigation_icon"
+        android:layout_marginLeft="20dp"
+        android:layout_height="80dp"
+        android:src="@drawable/main_icon" />
+
+    <TextView
+        android:layout_centerVertical="true"
+        android:text="FuWeather"
+        android:textSize="25sp"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/navigation_icon"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

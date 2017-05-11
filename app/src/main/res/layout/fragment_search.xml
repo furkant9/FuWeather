@@ -1,0 +1,45 @@
+<!--
+  ~ * **********************************************************************************************************************
+  ~  * Copyright (c) 2016 Furkan Tazegüllü - All Right Reserved.
+  ~  *
+  ~  * Project             : Weather
+  ~  * Created on          : 29.07.2016 09:25
+  ~  * Author              : Furkan Tazegüllü
+  ~  * Author E-Mail       : furkan.tazegll@gmail.com
+  ~  * Module              : C:/Project/Mobile/Weather/app/src/main/res/layout/fragment_search.xml
+  ~  * File Name           : fragment_search.xml
+  ~  * Last Modified User  : Furkan
+  ~  * Last Modified Date  : 29.07.2016 09:25
+  ~  * **********************************************************************************************************************
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.furkantazegullu.weather.ui.FragmentSearch">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <EditText
+        android:id="@+id/editText_CityName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button_city_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ara!" />
+
+    <FrameLayout
+        android:id="@+id/map_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>

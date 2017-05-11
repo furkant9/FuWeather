@@ -1,0 +1,38 @@
+/*
+ * **********************************************************************************************************************
+ * Copyright (c) 2016 Furkan Tazegüllü - All Right Reserved.
+ *
+ * Project             : Weather
+ * Created on          : 21.07.2016 11:11
+ * Author              : Furkan Tazegüllü
+ * Author E-Mail       : furkan.tazegll@gmail.com
+ * Module              : C:/Project/Mobile/Weather/build.gradle
+ * File Name           : build.gradle
+ * Last Modified User  : Furkan
+ * Last Modified Date  : 21.07.2016 11:07
+ * **********************************************************************************************************************
+ */
+
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.2.3'
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

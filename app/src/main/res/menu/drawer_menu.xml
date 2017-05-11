@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ * **********************************************************************************************************************
+  ~  * Copyright (c) 2016 Furkan Tazegüllü - All Right Reserved.
+  ~  *
+  ~  * Project             : Weather
+  ~  * Created on          : 28.07.2016 15:42
+  ~  * Author              : Furkan Tazegüllü
+  ~  * Author E-Mail       : furkan.tazegll@gmail.com
+  ~  * Module              : C:/Project/Mobile/Weather/app/src/main/res/menu/drawer_menu.xml
+  ~  * File Name           : drawer_menu.xml
+  ~  * Last Modified User  : Furkan
+  ~  * Last Modified Date  : 28.07.2016 15:42
+  ~  * **********************************************************************************************************************
+  -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/home_item"
+            android:icon="@drawable/ic_home"
+            android:title="Ana Ekran"/>
+        <item
+            android:id="@+id/search_item"
+            android:icon="@drawable/ic_search"
+            android:title="Şehir Seç"/>
+        <item
+            android:id="@+id/settings_item"
+            android:icon="@drawable/ic_settings"
+            android:title="Ayarlar"/>
+        <item
+            android:id="@+id/about_item"
+            android:icon="@drawable/ic_action_name"
+            android:title="Hakkında" />
+
+    </group>
+
+</menu>

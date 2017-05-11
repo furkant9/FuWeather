@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.preference.PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.preference.PreferenceCategory android:title="Genel">
+        <android.support.v7.preference.CheckBoxPreference
+            android:defaultValue="true"
+            android:key="use_metric"
+            android:summary="Metrik (°C) sistemi kullan"
+            android:title="Sistem seçimi" />
+
+    </android.support.v7.preference.PreferenceCategory>
+</android.support.v7.preference.PreferenceScreen>
+
+

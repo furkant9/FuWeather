@@ -1,0 +1,27 @@
+<!--
+  ~ ***********************************************************************************************************************
+  ~ Copyright (c) 2016 Furkan Tazegüllü - All Right Reserved.
+  ~
+  ~ Project             : Weather
+  ~ Created on          : 21.07.2016 11:11
+  ~ Author              : Furkan Tazegüllü
+  ~ Author E-Mail       : furkan.tazegll@gmail.com
+  ~ Module              : C:/Project/Mobile/Weather/app/src/main/res/values/styles.xml
+  ~ File Name           : styles.xml
+  ~ Last Modified User  : Furkan
+  ~ Last Modified Date  : 21.07.2016 11:07
+  ~ ***********************************************************************************************************************
+  -->
+
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="WeatherTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay</item>
+    </style>
+
+</resources>
